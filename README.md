@@ -144,4 +144,14 @@ Install the required dependencies:
         * API Integration for fetching real job data.
         
 
+**IMAGES**
+
+**NavBar and Header:**
+![image](https://github.com/user-attachments/assets/6c379261-6288-4a78-be45-5cd29aa97226)
+
+**Application Card and Footer:**
+![image](https://github.com/user-attachments/assets/2b0ca77d-feeb-47e8-a810-83557fd1c78e)
+
+
+
   
