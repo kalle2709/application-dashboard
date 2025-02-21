@@ -1,25 +1,32 @@
 import logo from './logo.svg';
+import { useEffect } from 'react';
+import { useSelector } from 'react-redux';
 import './App.css';
+import Dashboard from './components/Dashboard/Dashboard';
+import Footer from './components/Footer/Footer';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const isDarkMode = useSelector((state) => state.theme.darkMode);
+
+  useEffect(() => {
+    document.body.style.backgroundColor = isDarkMode ? "#222" : "#fff";
+    document.body.style.color = isDarkMode ? "#fff" : "#000";
+    const fieldsets = document.querySelectorAll("fieldset");
+    fieldsets.forEach((fieldset) => {
+      fieldset.style.backgroundColor = isDarkMode ? "white" : "#fff";
+      fieldset.style.color = isDarkMode ? "#fff" : "#000";
+      fieldset.style.borderColor = isDarkMode ? "white" : "#000";
+    });
+  }, [isDarkMode]);
+
+    return (
+      <div className="app-container">
+        <div className="main-content">
+          <Dashboard />
+        </div>
+        <Footer />
+      </div>
+    );
 }
 
 export default App;

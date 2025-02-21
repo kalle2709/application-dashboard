@@ -1,0 +1,12 @@
+.navbar{
+    background: #002222;
+    padding: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2.5rem;
+}
+
+.nav-item{
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
