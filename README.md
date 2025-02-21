@@ -16,7 +16,7 @@ Install the required dependencies:
 
 **3. Features Implemented**
 
-    **1. Navbar**
+    1. Navbar
     
       * Displays company name (XYZ Jobs) on the left.
       
@@ -27,7 +27,7 @@ Install the required dependencies:
         * Other navigation items (Applications, Home, etc.).
 
         
-    **2. Header Section**
+    2. Header Section
     
       * Contains a filter button to filter applications based on status (Applied, Interviewing, Offer Received).
       
@@ -43,7 +43,7 @@ Install the required dependencies:
           *Allows sorting applications based on the applied date (Newest → Oldest or Oldest → Newest).
 
           
-    **3. Applications Table Section**
+    3. Applications Table Section
     
       * Pagination
       
@@ -74,7 +74,7 @@ Install the required dependencies:
           * All modifications (status changes, filtering, deleting) are stored in localStorage so data persists across page reloads.
 
           
-      **4. Footer**
+      4. Footer
       
           * A basic single line Footer
 
@@ -82,7 +82,7 @@ Install the required dependencies:
 
 
 
-  **4. State Management (Redux Store)**
+  4. State Management (Redux Store)
   
       * The application uses Redux to manage global states efficiently.
       
@@ -100,7 +100,7 @@ Install the required dependencies:
               
 
               
-  ***5. Assumptions**
+  5. Assumptions
 
       * Currently, the application has 3 sample job applications.
       
@@ -110,7 +110,7 @@ Install the required dependencies:
 
       
 
-  **6. Challenges Faced**
+  6. Challenges Faced
   
       * Implementing Redux for Global State Management
       
@@ -134,7 +134,7 @@ Install the required dependencies:
 
           
           
-    **7. Future Enhancements**
+    7. Future Enhancements
 
     
         * Enable Edit Feature for job applications.
@@ -149,7 +149,7 @@ Install the required dependencies:
             
             * Add a theme toggle inside the sidebar for small screens.
 
-      **8. Key Points**
+      8. Key Points
 
          * To retrive the deleted applications for internally, open developer toolss and then opne console
          
