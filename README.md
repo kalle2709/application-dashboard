@@ -143,6 +143,12 @@ Install the required dependencies:
         
         * API Integration for fetching real job data.
         
+        * Small Screen Enhancements:
+        
+            * Implement a sidebar to replace the current menu alert.
+            
+            * Add a theme toggle inside the sidebar for small screens.
+        
 
 **IMAGES**
 
