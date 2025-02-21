@@ -11,11 +11,11 @@ function App() {
   useEffect(() => {
     document.body.style.backgroundColor = isDarkMode ? "#222" : "#fff";
     document.body.style.color = isDarkMode ? "#fff" : "#000";
-    const fieldsets = document.querySelectorAll("fieldset");
-    fieldsets.forEach((fieldset) => {
-      fieldset.style.backgroundColor = isDarkMode ? "white" : "#fff";
-      fieldset.style.color = isDarkMode ? "#fff" : "#000";
-      fieldset.style.borderColor = isDarkMode ? "white" : "#000";
+    const inputs = document.querySelectorAll("input");
+    inputs.forEach((input) => {
+      input.style.backgroundColor = isDarkMode ? "white" : "#fff";
+      input.style.input = isDarkMode ? "white" : "#000";
+      input.style.border = isDarkMode ? "none" : "#000";
     });
   }, [isDarkMode]);
 
