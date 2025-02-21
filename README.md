@@ -1,10 +1,11 @@
 # application-dashboard
 **1. Setup & Installation**
+
 To start, create a new React app using the following command:
-**
-npx create-react-app job-tracker
-cd job-tracker
-**
+**npx create-react-app application**
+
+**cd application**
+
 
 **2. Install Dependencies**
 Install the required dependencies:
@@ -66,8 +67,7 @@ Install the required dependencies:
           * Handling different filter layouts for small screens.
       * Persisting Data in Local Storage
           * Keeping state updates synced with localStorage to prevent losing data after refreshing the page.**
-
-
+          
     **7. Future Enhancements**
         * Enable Edit Feature for job applications.
         * Dynamic Locations instead of static data.
