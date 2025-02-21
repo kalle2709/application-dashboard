@@ -2,6 +2,7 @@
 **1. Setup & Installation**
 
 To start, create a new React app using the following command:
+
 **npx create-react-app application**
 
 **cd application**
