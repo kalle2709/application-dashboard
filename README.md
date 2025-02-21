@@ -152,6 +152,12 @@ Install the required dependencies:
 **Application Card and Footer:**
 ![image](https://github.com/user-attachments/assets/2b0ca77d-feeb-47e8-a810-83557fd1c78e)
 
+**For small Screens**
+![image](https://github.com/user-attachments/assets/b8be153f-6b6e-4e9b-a7f4-9a3b86069831)
+![image](https://github.com/user-attachments/assets/1b294f91-d2b6-4b88-800f-22a2bfc24311)
+
+
+
 
 
   
