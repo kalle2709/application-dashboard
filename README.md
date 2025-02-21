@@ -160,6 +160,7 @@ Install the required dependencies:
 
 **For small Screens**
 ![image](https://github.com/user-attachments/assets/b8be153f-6b6e-4e9b-a7f4-9a3b86069831)
+
 ![image](https://github.com/user-attachments/assets/1b294f91-d2b6-4b88-800f-22a2bfc24311)
 
 
