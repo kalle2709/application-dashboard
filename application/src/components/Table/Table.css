@@ -1,0 +1,37 @@
+.table{
+    padding-left: 7rem;
+    padding-top: 1rem;
+    padding-right: 7rem;
+    padding-bottom: 1.5rem; 
+}
+
+.statusBtn{
+    font-weight: bold;
+}
+
+.idDate{
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+}
+
+.table-card{
+    border-radius: 5px!important;
+    background-color: #FAFAFA!important;
+}
+
+.locationHeader{
+    color: rgb(78, 78, 78);
+}
+
+.locationName{
+    font-weight: bold
+}
+
+.tableStackMobile{
+    padding: 2rem;
+    padding-right: 1rem;
+}
+
+.tableStack{
+    padding: 2rem;
+}

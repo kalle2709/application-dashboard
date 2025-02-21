@@ -1,0 +1,12 @@
+.header{
+    background-color:#032929;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.headerText{
+    color: white;
+    font-weight: 500!important;
+    padding-top: 2rem;
+    
+}
