@@ -148,6 +148,20 @@ Install the required dependencies:
             * Implement a sidebar to replace the current menu alert.
             
             * Add a theme toggle inside the sidebar for small screens.
+
+      **8. Key Points**
+
+         * To retrive the deleted applications for internally, open developer toolss and then opne console
+         
+               run the following commands
+               
+                  1. localStorage.clear()
+                  
+                  2. location.reload()
+                
+
+                  
+               
         
 
 **IMAGES**
